@@ -1,4 +1,41 @@
-uploads
-chroma_db
-venv
+uploads/
+chroma_db/
+venv/
+venv/
+env/
+.venv/
+chroma_env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# ChromaDB local database
+chroma_db/
 
